@@ -158,8 +158,6 @@ public class TestCases {
         modalcontinueBTN.click();
     }
 
-
-
     @BeforeMethod
     public void setUp() {
         driver = new ChromeDriver();
