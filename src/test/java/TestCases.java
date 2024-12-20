@@ -15,7 +15,7 @@ import java.util.List;
 public class TestCases {
 
     WebDriver driver ;
-
+    
     private void verifyHomePageDisplayed() {
         WebElement homeImage = driver.findElement(By.xpath("//*[@id=\"slider-carousel\"]/div"));
         Assert.assertTrue(homeImage.isDisplayed(), "Home page is not displayed");
